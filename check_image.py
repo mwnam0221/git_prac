@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from natsort import natsorted
 
-
+#changed
 def read_images(path, save=False):
     # Generate a path for the results directory with the current timestamp
     timestamp = datetime.now().strftime("%m_%d_%Y_%H_%M")
